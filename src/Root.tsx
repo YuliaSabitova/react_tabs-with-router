@@ -14,9 +14,8 @@ export const Root = () => (
           <Route index element={<TabsInfo />} />
           <Route path=":tabId" element={<TabsInfo />} />
         </Route>
-      <Route path="*" element={<h1 className="title">Page not found</h1>} />
-    </Route>
-   </Routes>
+        <Route path="*" element={<h1 className="title">Page not found</h1>} />
+      </Route>
+    </Routes>
   </HashRouter>
 );
-
